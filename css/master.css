@@ -53,6 +53,9 @@
   width: 60%;
   color: white
 }
+.jumbo-contenuto .-star- hr {
+ border-color: white;
+}
 /* da cancellare */
 .immagine {
   background-color: green;
@@ -61,19 +64,86 @@
 
 }
 
-/* info spaziatura con stella */
-.-star- {
-  max-width: 60%;
-  margin: 0 auto;
+/* info Main */
+/* sezione portfolio */
+/* colori sfondo img */
+.img-1 {
+  background-color: #ba4b63;
 }
-.-star- .glyphicon-star {
-  font-size: 1.5em;
+.img-1 .immagine {
+  background-color: #46b39c;
 }
-.-star- hr {
-  display: inline-block;
-  width: 40%;
-  border: 0;
-  border-top: 3px solid white;
-  margin-bottom: 6px;
+
+.img-2 {
+  background-color: #1ea4b6;
 }
-/* fine info spaziatura stella */
+.img-2 .immagine {
+  background-color: #e05a49;
+}
+
+.img-3 {
+  background-color: #140f0f;
+}
+.img-3 .immagine {
+  background-color: #ecf0f0;
+}
+
+.img-4 {
+  background-color: #1c83c1;
+}
+.img-4 .immagine {
+  background-color: #e27b3e;
+}
+
+.img-5 {
+  background-color: #0e38b5;
+}
+.img-5 .immagine {
+  background-color: #efc74a;
+}
+
+.img-6 {
+  background-color: #ccb2a3;
+}
+.img-6 .immagine {
+  background-color: #334d5c;
+}
+/* fine colori sfondo img */
+/* fine sezione portfolio */
+
+/* Sezione About */
+#about {
+  background-color: #1abc9c;
+  color: white;
+  margin-top: 10vh;
+}
+#about .-star- hr{
+  border-color: white;
+}
+
+#about div:last-child {
+  margin-bottom: 5vh;
+}
+#about p {
+  padding: 5% 0 0 10%;
+}
+
+#about .btn-default {
+  background-color: #00000000;
+  border-color: white;
+}
+#about a {
+  color: white;
+  margin-bottom: 3vh;
+}
+/* fine sezione about */
+
+/* sezione Conctact */
+
+#contact div:last-child {
+  margin-bottom: 3vh;
+  background-color: grey;
+}
+#contact p {
+  padding: 30% 0;
+}
