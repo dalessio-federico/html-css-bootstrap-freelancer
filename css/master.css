@@ -4,111 +4,151 @@
   margin: 0 auto;
 }
 .-star- .glyphicon-star {
-  font-size: 1.5em;
+  font-size: 3.2em;
 }
 .-star- hr {
   display: inline-block;
-  width: 40%;
+  width: 30%;
   border: 0;
-  border-top: 3px solid black;
-  margin-bottom: 6px;
+  border-top: 6px solid black;
+  border-radius: 5px;
+  margin-bottom: 17px;
 }
 /* fine info spaziatura stella */
 
+/* Utility */
+
+.ms_btn {
+  background-color: #1abc9c;
+  border-color: #1abc9c
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.padding_top {
+  padding-top: 2vh;
+}
+
+.padding_bottom {
+  padding-bottom: 2vh;
+}
+
+/* utility */
+
 /* info specifiche barra fixed */
-.topheader {
+.ms_topheader {
+  width: 100%;
   height: 14vh;
   background-color: #2c3e50;
   color: white;
+  line-height: 14vh;
 }
 
-.topheader .container {
+.ms_topheader {
   line-height: 14vh
 }
-.topheader .list-inline a {
+.ms_topheader a {
   color: white;
   text-decoration: none;
 }
-.topheader span {
-  font-size: 3em;
-  padding-top: 20%;
+.ms_topheader .Logo {
+  font-size: 2.3em;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
+
+.ms_topheader .ms_list_padding a {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ms_topheader .ms_list_padding li {
+  padding: 0 3%;
+}
+
+.ms_topheader .ms_burger {
+  font-size: 3em;
+  line-height: 14vh;
+}
+.ms_topheader .ms_burger:active {
+  color: white;
+}
+.ms_topheader .ms_burger:visited {
+  color: white;
+}
+
 /* fine info barra fixed */
 
 /* info jumbo */
-.jumbotron {
+.ms_jumbotron {
+  width: 100%;
   position: relative;
   margin: 14vh 0;
   height: 80vh;
   background-color: #1abc9c;
 }
-.jumbotron h1 {
+.ms_jumbotron h1 {
   font-size: 3.5em;
+  font-weight: 700;
 }
 .jumbo-contenuto {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 60%;
   color: white
 }
 .jumbo-contenuto .-star- hr {
  border-color: white;
 }
-/* da cancellare */
-.immagine {
-  background-color: green;
-  width: 10%;
-  margin: 0 auto;
 
+.jumbo-contenuto .immagine img {
+  width: 27%;
+  height: 50%;
+}
+
+.jumbo-contenuto p {
+  font-size: 1.6em;
 }
 
 /* info Main */
 /* sezione portfolio */
+#portfolio h2 {
+  font-size: 3em;
+  font-weight: 700;
+}
 /* colori sfondo img */
+/* impostazioni effetto Hover */
 .img-1 {
-  background-color: #ba4b63;
+  position: relative;
 }
-.img-1 .immagine {
-  background-color: #46b39c;
+.plus_over {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 188, 156, 0.9);
+  opacity: 0;
+  margin: 0 15 15 0;
 }
-
-.img-2 {
-  background-color: #1ea4b6;
-}
-.img-2 .immagine {
-  background-color: #e05a49;
-}
-
-.img-3 {
-  background-color: #140f0f;
-}
-.img-3 .immagine {
-  background-color: #ecf0f0;
+.plus_over:hover {
+  opacity : 1;
 }
 
-.img-4 {
-  background-color: #1c83c1;
+.plus_over i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-size: 10em;
+  color: white;
 }
-.img-4 .immagine {
-  background-color: #e27b3e;
+/* fine impostazioni effeto hover */
+/* impostazioni immagine portfolio */
+.img img {
+  max-width: 100%;
+  padding-bottom: 5%;
 }
-
-.img-5 {
-  background-color: #0e38b5;
-}
-.img-5 .immagine {
-  background-color: #efc74a;
-}
-
-.img-6 {
-  background-color: #ccb2a3;
-}
-.img-6 .immagine {
-  background-color: #334d5c;
-}
-/* fine colori sfondo img */
+/* fine impostazioni immagine portfolio */
 /* fine sezione portfolio */
 
 /* Sezione About */
@@ -120,6 +160,10 @@
 #about .-star- hr{
   border-color: white;
 }
+#about h2 {
+  font-size: 3em;
+  font-weight: 700;
+}
 
 #about div:last-child {
   margin-bottom: 5vh;
@@ -128,7 +172,7 @@
   padding: 5% 0 0 10%;
 }
 
-#about .btn-default {
+#about .ms_btn {
   background-color: #00000000;
   border-color: white;
 }
@@ -139,18 +183,30 @@
 /* fine sezione about */
 
 /* sezione Conctact */
+#contact h2 {
+  font-size: 3em;
+  font-weight: 700;
+}
 
 #contact div:last-child {
   margin-bottom: 3vh;
-  background-color: grey;
 }
 #contact p {
   padding: 30% 0;
 }
+<<<<<<< refs/remotes/origin/main
+=======
+
+
+#contact .ms_floating {
+  border-bottom: 2px solid #e9ecef;
+}
+>>>>>>> Aggiunta contenuto
 /* fine sezione contact */
 /* fine main */
 
 /* inizio footer */
+<<<<<<< refs/remotes/origin/main
 footer .container-fluid .upper-footer div:nth-child(2) {
   padding: 0;
 }
@@ -158,6 +214,15 @@ footer .container-fluid .upper-footer div:first-child {
   padding-left: 20px;
 }
 footer .container-fluid .upper-footer div:last-child {
+=======
+footer .upper-footer div:nth-child(2) {
+  padding: 0;
+}
+footer .upper-footer div:first-child {
+  padding-left: 20px;
+}
+footer .upper-footer div:last-child {
+>>>>>>> Aggiunta contenuto
   padding-right: 20px;
 }
 /* inizio upper footer */
@@ -178,6 +243,7 @@ footer .container-fluid .upper-footer div:last-child {
   color: white;
 }
 /* fine lower footer */
+<<<<<<< refs/remotes/origin/main
 /* main */
 
 /* @media screen and (min-width:992px) {
@@ -201,10 +267,23 @@ footer .container-fluid .upper-footer div:last-child {
   }
   footer .container-fluid .upper-footer div:last-child {
     padding: 15px
+=======
+
+@media screen and (min-width:722px) and (max-width:992px) {
+  footer .upper-footer div:nth-child(2) {
+    padding: 15px;
+  }
+  footer .container-fluid .upper-footer div:first-child {
+    padding: 15px;
+  }
+  footer .upper-footer div:last-child {
+    padding: 15px;
+>>>>>>> Aggiunta contenuto
   }
 }
 
 @media screen and (max-width:772px) {
+<<<<<<< refs/remotes/origin/main
   footer .container-fluid .upper-footer div:nth-child(2) {
     padding: 15px
   }
@@ -213,5 +292,15 @@ footer .container-fluid .upper-footer div:last-child {
   }
   footer .container-fluid .upper-footer div:last-child {
     padding: 15px
+=======
+  footer .upper-footer div:nth-child(2) {
+    padding: 15px;
+  }
+  footer .upper-footer div:first-child {
+    padding: 15px;
+  }
+  footer .upper-footer div:last-child {
+    padding: 15px;
+>>>>>>> Aggiunta contenuto
   }
 }

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/master.css">
     <title>Bootstrap-Freelancer</title>
@@ -10,118 +11,169 @@
   <body class="debug">
     <!-- inizio header -->
     <header>
-      <div class="topheader container-fluid navbar-fixed-top">
-        <div class="container text-center">
+      <div class="ms_topheader navbar-fixed-top text-right">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-              <p>SONO IL LOGO</p>
+            <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 text-center">
+              <a href="#" class="Logo">Start Bootstrap</a>
             </div>
-            <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-2 col-xs-offset-4">
-              <span class="visible-xs glyphicon glyphicon-align-justify"></span>
+            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-6 text-center">
+              <div class="visible-xs"><a href="#" class="ms_burger glyphicon glyphicon-align-justify"></a> </div>
+              </div>
               <nav class="hidden-xs">
-                <ul class="list-inline">
-                  <li><a href="#">SONO</a></li>
-                  <li><a href="#">UNA</a></li>
-                  <li><a href="#">LISTA</a></li>
+                <ul class="list-inline ms_list_padding">
+                  <li><a href="#">PROFILO</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">CONCTACTS</a></li>
                 </ul>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      <div class="jumbotron text-center container-fluid ">
-        <div class="jumbo-contenuto">
-          <!-- per ora questo div sostituisce l'img -->
-          <div class="immagine img-circle"><p>Sono un immagine</p></div>
-          <h1>SONO UN TITO IMPORTANTE</h1>
-          <div class="-star-">
-            <hr>
-            <span class="glyphicon glyphicon-star"></span>
-            <hr>
+      <div class="ms_jumbotron text-center padding_top padding_bottom">
+         <div class="container-fluid">
+            <div class="row">
+              <div class="jumbo-contenuto col-lg-12">
+                  <!-- per ora questo div sostituisce l'img -->
+                  <div class="immagine"><img src="img\avataaars.svg" alt="img_jumbo "> </div>
+                  <h1>START BOOTSTRAP</h1>
+                  <div class="-star-">
+                    <hr>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <hr>
+                  </div>
+                  <p>Graphic Artist - Web Designer - Illustrator</p>
+                </div>
+            </div>
           </div>
-          <p>qui ci sono delle scritte</p>
-        </div>
       </div>
     </header>
     <!-- fine header -->
 
     <!-- inizio main -->
     <main>
-      <div id="portfolio" class="container text-center">
-        <div class="row text-center">
-          <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">SONO UN TITO MENO IMPORTANTE</h2>
-        </div>
-        <div class="-star-">
-          <hr>
-          <span class="glyphicon glyphicon-star"></span>
-          <hr>
+      <!-- inizio sez. portfolio -->
+      <div id="portfolio" class="container text-center padding_top padding_bottom">
+        <div class="row">
+          <h2>PORTFOLIO</h2>
+          <div class="-star-">
+            <hr>
+            <span class="glyphicon glyphicon-star"></span>
+            <hr>
+          </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 ">
-            <div class="img-1">
-              <div class="immagine img-circle"><p>Sono un immagine</p></div>
+          <!-- immagine 1 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="img">
+              <div class="plus_over">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="img\cabin.png" alt="cabin">
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="img-2">
-              <div class="immagine img-circle"><p>Sono un immagine</p></div>
+          <!-- immagine 2 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="img">
+              <div class="plus_over">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="img\cake.png" alt="cake">
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="img-3">
-              <div class="immagine img-circle"><p>Sono un immagine</p></div>
+          <!-- immgine3 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="img">
+              <div class="plus_over">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="img\circus.png" alt="circus">
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="img-4">
-              <div class="immagine img-circle"><p>Sono un immagine</p></div>
+          <!-- immagine 4 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="img">
+              <div class="plus_over">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="img\game.png" alt="game">
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="img-5">
-              <div class="immagine img-circle"><p>Sono un immagine</p></div>
+          <!-- immagine 5 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="img">
+              <div class="plus_over">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="img\safe.png" alt="safe">
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="img-6">
-              <div class="immagine img-circle"><p>Sono un immagine</p></div>
+          <!-- immagine 6 -->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="img">
+              <div class="plus_over">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="img\submarine.png" alt="submarine">
             </div>
           </div>
         </div>
       </div>
-      <div id="about" class="container-fluid text-center">
-        <div class="row text-center">
-          <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">SONO UN TITO MENO IMPORTANTE</h2>
-        </div>
-        <div class="-star-">
-          <hr>
-          <span class="glyphicon glyphicon-star"></span>
-          <hr>
-        </div>
-        <div class="row text-left">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <!-- fine sezione portfolio -->
+      <div id="about" class="padding_top padding_bottom">
+        <div class="container-fluid">
+          <div class="wrapper text-center">
+            <div class="row">
+              <h2>ABOUT</h2>
+              <div class="-star-">
+                <hr>
+                <span class="glyphicon glyphicon-star"></span>
+                <hr>
+              </div>
+            </div>
+            <div class="row text-left">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              </div>
+            </div>
+            <a class="btn btn-default btn-lg ms_btn" href="#" role="button"><i class="fas fa-download"></i> Free Download</a>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-          </div>
         </div>
-        <a class="btn btn-default btn-lg" href="#" role="button">PREMIMI</a>
       </div>
-      <div id="contact" class="container text-center">
-        <div class="row text-center">
-          <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">SONO UN TITO MENO IMPORTANTE</h2>
-        </div>
-        <div class="-star-">
-          <hr>
-          <span class="glyphicon glyphicon-star"></span>
-          <hr>
-        </div>
-        <div class="row text-center">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <p>Sono un nav</p>
+      <div id="contact" class="text-center padding_top padding_bottom">
+        <div class="container">
+          <div class="row text-center">
+            <h2>CONTACTS</h2>
+            <div class="-star-">
+              <hr>
+              <span class="glyphicon glyphicon-star"></span>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="text-left wrapper">
+              <form>
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputEmail1">Email adress</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-xl ms_btn">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
+      </div>
     </main>
     <!-- fine main -->
 
@@ -129,6 +181,7 @@
     <footer>
       <div class="container-fluid text-center">
         <div class="row upper-footer">
+<<<<<<< refs/remotes/origin/main
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="prova"></div>
           </div>
@@ -136,6 +189,15 @@
             <div class="prova"></div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+=======
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="prova"></div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="prova"></div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+>>>>>>> Aggiunta contenuto
             <div class="prova"></div>
           </div>
         </div>
