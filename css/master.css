@@ -194,27 +194,15 @@
 #contact p {
   padding: 30% 0;
 }
-<<<<<<< refs/remotes/origin/main
-=======
 
 
 #contact .ms_floating {
   border-bottom: 2px solid #e9ecef;
 }
->>>>>>> Aggiunta contenuto
 /* fine sezione contact */
 /* fine main */
 
 /* inizio footer */
-<<<<<<< refs/remotes/origin/main
-footer .container-fluid .upper-footer div:nth-child(2) {
-  padding: 0;
-}
-footer .container-fluid .upper-footer div:first-child {
-  padding-left: 20px;
-}
-footer .container-fluid .upper-footer div:last-child {
-=======
 footer .upper-footer div:nth-child(2) {
   padding: 0;
 }
@@ -222,7 +210,6 @@ footer .upper-footer div:first-child {
   padding-left: 20px;
 }
 footer .upper-footer div:last-child {
->>>>>>> Aggiunta contenuto
   padding-right: 20px;
 }
 /* inizio upper footer */
@@ -243,31 +230,6 @@ footer .upper-footer div:last-child {
   color: white;
 }
 /* fine lower footer */
-<<<<<<< refs/remotes/origin/main
-/* main */
-
-/* @media screen and (min-width:992px) {
-  footer .container-fluid div:nth-child(2) {
-    padding: 15px
-  }
-  footer .container-fluid div:first-child {
-    padding: 15px
-  }
-  footer .container-fluid div:last-child {
-    padding: 15px
-  }
-} */
-
-@media screen and (min-width:722px) and (max-width:992px) {
-  footer .container-fluid .upper-footer div:nth-child(2) {
-    padding: 15px
-  }
-  footer .container-fluid .upper-footer div:first-child {
-    padding: 15px
-  }
-  footer .container-fluid .upper-footer div:last-child {
-    padding: 15px
-=======
 
 @media screen and (min-width:722px) and (max-width:992px) {
   footer .upper-footer div:nth-child(2) {
@@ -278,21 +240,10 @@ footer .upper-footer div:last-child {
   }
   footer .upper-footer div:last-child {
     padding: 15px;
->>>>>>> Aggiunta contenuto
   }
 }
 
 @media screen and (max-width:772px) {
-<<<<<<< refs/remotes/origin/main
-  footer .container-fluid .upper-footer div:nth-child(2) {
-    padding: 15px
-  }
-  footer .container-fluid .upper-footer div:first-child {
-    padding: 5%
-  }
-  footer .container-fluid .upper-footer div:last-child {
-    padding: 15px
-=======
   footer .upper-footer div:nth-child(2) {
     padding: 15px;
   }
@@ -301,6 +252,5 @@ footer .upper-footer div:last-child {
   }
   footer .upper-footer div:last-child {
     padding: 15px;
->>>>>>> Aggiunta contenuto
   }
 }
