@@ -203,29 +203,37 @@
 /* fine main */
 
 /* inizio footer */
-footer .upper-footer div:nth-child(2) {
+footer  div:nth-child(2) {
   padding: 0;
 }
-footer .upper-footer div:first-child {
+footer  div:first-child {
   padding-left: 20px;
 }
-footer .upper-footer div:last-child {
+footer  div:last-child {
   padding-right: 20px;
 }
 /* inizio upper footer */
-.upper-footer {
+#upper-footer {
   background-color: #3a546d;
   color: white;
 }
 
-.prova {
-  height: 200px;
-  background-color: #2c3e50;
+#upper-footer ul li {
+  font-size: 2.3em;
+  border: 1px solid white;
+  width: 57px
 }
-/* fine upper footer */
+#upper-footer a {
+  color: #1abc9c;
+}
+.riquadro {
+  padding-top: 20px;
+}
+/* ine upper footer */
 
 /* inizio lower footer */
-.lower-footer {
+#lower-footer {
+  width: 100%;
   background-color: #2c3e50;
   color: white;
 }
