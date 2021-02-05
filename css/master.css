@@ -66,7 +66,7 @@
   text-transform: uppercase;
 }
 .ms_topheader .ms_list_padding li {
-  padding: 0 3%;
+  padding: 0 1%;
 }
 
 .ms_topheader .ms_burger {
@@ -118,17 +118,21 @@
 }
 /* colori sfondo img */
 /* impostazioni effetto Hover */
-.img-1 {
+.img {
   position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2vh;
 }
+
 .plus_over {
   position: absolute;
-  z-index: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(26, 188, 156, 0.9);
   opacity: 0;
-  margin: 0 15 15 0;
 }
 .plus_over:hover {
   opacity : 1;
@@ -146,7 +150,6 @@
 /* impostazioni immagine portfolio */
 .img img {
   max-width: 100%;
-  padding-bottom: 5%;
 }
 /* fine impostazioni immagine portfolio */
 /* fine sezione portfolio */
@@ -165,11 +168,9 @@
   font-weight: 700;
 }
 
-#about div:last-child {
-  margin-bottom: 5vh;
-}
 #about p {
   padding: 5% 0 0 10%;
+  margin-bottom: 15%;
 }
 
 #about .ms_btn {
@@ -195,6 +196,21 @@
   padding: 30% 0;
 }
 
+#contact input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  box-shadow: None;
+  border-radius: none;
+}
+#contact textarea {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  box-shadow: None;
+  border-radius: none;
+}
+
 
 #contact .ms_floating {
   border-bottom: 2px solid #e9ecef;
@@ -203,25 +219,24 @@
 /* fine main */
 
 /* inizio footer */
-footer  div:nth-child(2) {
-  padding: 0;
-}
-footer  div:first-child {
-  padding-left: 20px;
-}
-footer  div:last-child {
-  padding-right: 20px;
-}
+
 /* inizio upper footer */
 #upper-footer {
   background-color: #3a546d;
   color: white;
 }
 
-#upper-footer ul li {
-  font-size: 2.3em;
+#upper-footer .social {
+  text-align: center;
+}
+#upper-footer .social i {
+  font-size: 1.5em;
   border: 1px solid white;
-  width: 57px
+  border-radius: 50%;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }
 #upper-footer a {
   color: #1abc9c;
@@ -260,5 +275,11 @@ footer  div:last-child {
   }
   footer .upper-footer div:last-child {
     padding: 15px;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .ms_topheader .Logo {
+    font-size: 1.5em;
   }
 }
